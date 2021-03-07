@@ -50,7 +50,7 @@ function multiplyFive (number){
 /* 13. Define a function called myFunction that uses the alert() method with a string value
 “Hello World!” inside. Call myFunction on the next line.*/
 
-function myFunction (message){
+/*function myFunction (message){
     alert(message);
 }
 
@@ -70,9 +70,13 @@ like so: "You will be a X in Y, and married to Z with N kids." Call that functio
 3 times with 3 different values for the arguments.*/
 
 function tellFortune (numberChildren, partnerName, location, jobTitle){
-    return "You will be a "+ jobTitle + " in " + location + " and married to " + partnerName
-    + " with " + numberChildren+" kids."
+    return console.log("You will be a "+ jobTitle + " in " + location + " and married to " + partnerName
+    + " with " + numberChildren+" kids.");
+
 }
+tellFortune(1, 'Elisa', 'Sao Paulo', 'Doctor');
+tellFortune(2, 'Ruby', 'Dublin', 'Fireman');
+tellFortune(3, 'Jessie', 'Sidney', 'Actor');
 
 
 
